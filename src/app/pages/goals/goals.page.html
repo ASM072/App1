@@ -1,22 +1,33 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="light">
+    <ion-menu-button slot="start" menu="main-menu"></ion-menu-button>
     <ion-title>Goals</ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button fill="solid">
+        <ion-icon slot="end" name="home"></ion-icon>
+        Home
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="abc">
-  <ion-card>
-<div ><h1>INTRODUCTION </h1><b></b>
+<ion-content class="abc" color="warning" ion-text-color="light">
+  <br><br><br>
+<div id="div1">
+  <ion-text color="dark">
+  <h1>INTRODUCTION </h1><b></b>
 <p>i am going to create an application using Ionic Framework. The app will include all the necessary
 requirements of a basic app. the app will be tested and be completely ready for deployment at the end of the 
 module.</p> 
-</div>
-<div >
+</ion-text>
+</div > <br><br>
+<div id="div2">
+  <ion-text color="dark">
   <h1>Final Goal of the application</h1>
   <p>This is app is about an ordering system. it could be any type of order placing app.
   The goal at the end of module will be to develop a mobile application. We should be able to develop
   an application using Ionic framework. we will learn about the components of ionic angular framework.
 </p>
+</ion-text>
 </div>
-</ion-card>
 </ion-content>

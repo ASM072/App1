@@ -1,20 +1,33 @@
 <ion-header>
   <ion-toolbar>
+    <ion-menu-button slot="start" menu="main-menu"></ion-menu-button>
+  
     <ion-title>Technologies</ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button fill="solid">
+        <ion-icon slot="end" name="home"></ion-icon>
+        Home
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="warning">
   <h1>Technologies used to develop the app</h1><br>
   <h2>Ionic Framework</h2><br>
   <p>Ionic Framework is a platform which allow you develop mobile applications.
     it is a cross platform to develop both ios and android applications.
-    <a href="https://ionicframework.com/"></a>
+    <ion-button href="https://ionicframework.com/">
+      <ion-icon slot="start" name="logo-angular"></ion-icon>
+    </ion-button>
   </p> <br>
   <h2>Node.js</h2><br>
   <p>It is a javascript framework to develop a mobile application over a platform.
-    <a href="https://ionicframework.com/"></a>
-  </p><br>
+    <ion-button href="https://nodejs.org/en/">
+      <ion-icon slot="start" name="build"></ion-icon>
+    </ion-button>
+   </p>
+   <br>
 
 
 

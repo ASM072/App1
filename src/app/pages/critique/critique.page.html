@@ -1,13 +1,28 @@
 <ion-header>
   <ion-toolbar>
+    <ion-menu-button slot="start" menu="main-menu"></ion-menu-button>
     <ion-title>Critique</ion-title>
+    <ion-buttons slot="secondary">
+      <ion-button fill="solid">
+        <ion-icon slot="end" name="home"></ion-icon>
+        Home
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
- <h2>Critique 1</h2>
-    <img src="assets/img/Critique1.png" position="relative" /> <br>
-   <h2>Critique 2</h2>
-    <img src="assets/img/Critique2.png" postion="relative" />
- 
+
+<ion-content color="warning">
+  <div  class="cardbg">
+  <h1 >Critique1</h1>
+  <ion-card>
+    <img src="assets/img/Critique1.png" width="240px" height="400" position="relative" >
+    <div class="card-title">1</div>
+    </ion-card>
+<h1 >Critique2</h1>
+  <ion-card>
+    <img src="assets/img/Critique2.png" width="240px" height="400px" postion="relative"/>
+    <div class="card-title">2</div>
+  </ion-card>
+</div>
 </ion-content>

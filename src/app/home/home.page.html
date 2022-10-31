@@ -1,15 +1,54 @@
 <ion-header>
-  <ion-toolbar color="danger">
+  <ion-toolbar color="light">
     <ion-title>Dashboard</ion-title>
     <ion-buttons slot="start">
     <ion-menu-button menu="main-menu"></ion-menu-button>
     </ion-buttons>
+    <ion-buttons slot="secondary">
+      <ion-button fill="solid">
+        <ion-icon slot="end" name="person-circle"></ion-icon>
+        Profile
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
-<ion-content class="content" color="primary">
-  <h2>
+<ion-content class="content" color="warning">
+  <ion-text color="danger">
+  <h2 >
     Name: Ahmed Saad Malik <br>
     Module: Mobile Computing <br>
-    Assignment 1 
+    Assignment 1 <br>
+    Github ID: ASM072 <br>
+    UH ID: 22011177 <br>
   </h2>
+</ion-text>
 </ion-content>
+<ion-footer>
+  
+  <ion-toolbar color="light">
+    <ion-tabs>
+      <ion-tab-bar slot="bottom">
+        <ion-tab-button tab="Restaurant">
+          <ion-icon name="pizza"></ion-icon>
+          <ion-label>Restaurant</ion-label>
+          <ion-badge>3</ion-badge>
+        </ion-tab-button>
+    
+        <ion-tab-button tab="shopping">
+          <ion-icon name="cart"></ion-icon>
+          <ion-label>shops</ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button tab="review">
+          <ion-icon name="star"></ion-icon>
+          <ion-label>Reviews</ion-label>
+        </ion-tab-button>
+    
+        <ion-tab-button tab="logout">
+          <ion-icon name="power"></ion-icon>
+          <ion-label>Logout</ion-label>
+        </ion-tab-button>
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>
